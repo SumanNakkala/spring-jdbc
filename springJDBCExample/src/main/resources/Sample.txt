@@ -1,0 +1,42 @@
+JPA --JAVA Persisitence API
+
+The Java Persistence API (JPA) is a specification of Java. 
+It is used to persist data between Java object and relational database. 
+JPA acts as a bridge between object-oriented domain models and relational database systems.
+
+
+ORM TEchnologies 
+
+Hibernate  --------- 
+TopLink
+ORMLite
+iBATIS  ---------------
+JPOX
+
+
+Student :
+
+{
+
+	int rollNo
+	String Name;
+	int age;
+}
+
+somting.save(javaObj) - 
+
+Student Table : 
+
+
+rommNo 	Name age 
+
+
+ JDBC ---- connectionsn , statements , queries ourselves 
+ 
+ SPRING JDBC - query 
+ 
+ SPRING JPA - we need provide few configurations 
+ 
+ SPRING DATA JPA - Just declare interface using JPA REpositiry 
+
+ 
