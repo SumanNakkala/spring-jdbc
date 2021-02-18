@@ -36,14 +36,14 @@ public class SpringDataJPAExampleApplication implements CommandLineRunner{
 		log.info("----> " + jdbcDao.findById(10001) );
 		
 		Person p = new Person(); 
-		p.setName("Phani");
-		  p.setLocation("ABCD"); p.setBirthDate(new Date());
+		p.setName("Suman");
+		  p.setLocation("HYD"); p.setBirthDate(new Date());
 		
 		  jdbcDao.save(p);
 		  //org.springframework.data.repository.CrudRepository.deleteById(Integer id)
 
 		  
-		  jdbcDao.deleteById(10003);
+		  //jdbcDao.deleteById(10003);
 		  
 		  log.info("All  person details  are - > " + jdbcDao.findAll());
 		  
